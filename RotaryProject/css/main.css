@@ -1,0 +1,295 @@
+.branding{
+    background-color: #240090;
+    text-align: center;
+    font-family: Arial, halvetica, sans-serif;
+    font-weight: bold;
+}
+header{
+    background-color: #240090;
+}
+header ul{
+    padding:20px;
+}
+header li{
+    display:inline;
+}
+header a{
+    color: white;
+    padding:10px;
+    text-space:1px;
+    font-family: Arial, halvetica, sans-serif;
+    font-weight: bold;
+}
+.d-block{
+
+}
+.button{
+    text-decoration:none;
+    color:#2F2FA2;
+    display:inline-block;
+    padding:0.5em 1em 0.5em;
+    margin:0.5em;
+    background-color: #3500D3;
+    border: none;
+    alignment: center;
+}
+/*.btn{*/
+/*    color:#2F2FA2;*/
+/*    display:inline-block;*/
+/*    padding:0.5em 1em 0.5em;*/
+/*    margin:0.5em;*/
+/*    background-color: #2F2FA2;*/
+/*    border: none;*/
+/*    alignment: center;*/
+/*}*/
+.button:hover{
+    background: darkgoldenrod;
+}
+.btn:hover{
+    background: #17a2b8;
+    color:#007bff;
+}
+.card button{
+    color:#2e99cc;
+    size: auto;
+    alignment: center;
+}
+#section-a .card img:hover{
+    opacity:0.3;
+}
+.content{
+    padding:16px;
+}
+.sticky{
+    Position:fixed;
+    top:0;
+    width: 100%;
+}
+.sticky +.content{
+    padding-top: 60px;
+}
+.navbar{
+    background-color: honeydew;
+    color: #007bff;
+    border: #6c757d;
+}
+.section-d{
+    text-align: center;
+    font-family: -apple-system;
+    color:white;
+    background-image:url("../images/IMG-20200419-WA0018.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:50vh;
+    /*padding-top:100px;*/
+    background-attachment: fixed;
+    font-weight: bold;
+}
+.card image{
+    width:50px;
+
+}
+.section-b{
+    background-color: whitesmoke;
+}
+.right{
+    background-color:transparent;
+    color:black;
+    border: none;
+    text-align: center;
+}
+.card{
+    background-attachment: fixed;
+}
+/*cards slider insert alert*/
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+    width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+.footer{
+    background-color: #062c33;
+    color: white;
+}
+.navbar{
+    background-color: honeydew;
+}
+.text{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.list{
+    list-style: upper-roman;
+}
+.fa-envelope{
+    background-image: url("../images/icons8-secured-letter-64.png");
+}
+.fa-facebook-f{
+    background-image: url("../images/facebook icon.jpg");
+}
+.fb-ic{
+    background-image: url("../images/facebook icon.jpg");
+}
+.fa-home{
+    background-image: url("../images/home image icon.png");
+}
+.fa-phone{
+    background-image: url("../images/phone web icon.png");
+}
+.fa-print{
+    background-image: url("../images/print web icon.jpg");
+}
+.gplus-ic{
+    background-image: url("../images/google web icon.jpg");
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.pic {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.pic img {
+    max-width: 100%;
+}
+.word{
+    text-align: center;
+    top:0;
+    width:100%;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/*.right{*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    margin: auto;*/
+/*    right: 0;*/
+/*    text-align: center;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*}*/
+@media screen and (max-width: 620px) {
+    .section-b.section-d.section-e.section-a.footer.about-a.about-b.main.section {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+.resize{
+    text-align:center;
+    color:#F39C9C;
+    font-size:100%;
+    width:100%;
+
+}
+
+@media screen and (max-width: 680px){
+    .resize{
+        font-size: 50%;
+    }
+}
+.news-1{
+    background-image: url("../images/IMG-20200429-WA0061.jpg");
+    height: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
